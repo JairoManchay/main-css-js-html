@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <link rel="stylesheet" href="/css/index.css">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header_box">
+    <section class="cabecera">
+      <article class="logo">
+        <!-- &#x1e88; -->
+        <nav>
+          <img src="./assets/images/logo.svg" alt="Logo" />
+        </nav>
+      </article>
+
+      <ul class="lista-items">
+        <li><a href="#" class="enlace1">Home</a></li>
+        <li><a href="#" class="enlace2">New</a></li>
+        <li><a href="#" class="enlace3">Popular</a></li>
+        <li><a href="#" class="enlace4">Trending</a></li>
+        <li><a href="#" class="enlace5">Categories</a></li>
+      </ul>
+    </section>
+
+    <!-- Cabecera para moviles -->
+    <article class="cabecera-mobil">  
+      <img class="logo" src="./assets/images/logo.svg" alt="Logo" />    
+      <!-- <section class="menu" id="menu-open">
+        <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+      </section> -->
+      <button class="mobile-nav-toggle"></button>
+      
+        <ul data-visible="false" class="main-nav-list">
+          <li><a class="main-link" href="#">Home</a></li>
+          <li><a class="main-link" href="#">New</a></li>
+          <li><a class="main-link" href="#">Popular</a></li>
+          <li><a class="main-link" href="#">Trending</a></li>
+          <li><a class="main-link" href="#">Categories</a></li>
+        </ul>
+      
+    </article>
+  </header>
+
+
+  <main>
+    <article class="body_box">
+      <section class="content_img_1">
+        <article class="img">
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="" id="desktop">
+          <img src="/assets/images/image-web-3-mobile.jpg" alt="" id="mobile">
+        </article>
+  
+        <article class="content_img_2">
+          <section class="titulo_Content">
+            <h2>The Bright Future of Web 3.0?</h2>
+          </section>
+  
+          <section class="titulo_content_2">
+            <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+  
+              <button type="button" class="botonColorado">Read more</button>
+          </section>
+        </article>
+      </section>
+  
+      <aside class="content_aside">
+        <section class="title">
+          <h3>New</h3>
+        </section>
+  
+        <section class="caja1">
+          <h4>Hydrogen VS Electric Cars</h4>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </section>
+  
+        <section class="caja2">
+          <h4>The Downsides of AI Artistry</h4>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </section>
+  
+        <section class="caja3">
+          <h4>Is VC Funding Drying Up?</h4>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </section>
+      </aside>
+    </article>
+
+ 
+    <section class="content_footer">
+      <article class="cajaFooter-1">
+        <section class="footerImg">
+          <img src="/assets/images/image-retro-pcs.jpg" alt="">
+        </section>
+        <section class="subcajaFooter-1">
+          <h2>01</h2>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </section>
+      </article>
+
+      <article class="cajaFooter-2">
+        <section class="footerImg">
+          <img src="/assets/images/image-top-laptops.jpg" alt="">
+        </section>
+        <section class="subcajaFooter-2">
+          <h2>02</h2>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </section>
+      </article>
+
+
+      <article class="cajaFooter-3">
+        <section class="footerImg">
+          <img src="/assets/images/image-gaming-growth.jpg" alt="">
+        </section>
+        
+        <section class="subcajaFooter-3">
+          <h2>03</h2>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </section>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <article class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/JairoManchay" aria-placeholder="Github de Jairo">Jairo Manchay</a>.
+    </article>
+  </footer>
+  <script src="/js/index.js"></script>
+</body>
+</html>
